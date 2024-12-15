@@ -18,3 +18,4 @@ Requires:<br>
 72 6x6x7mm tactile switches with LEDs. There are 71 tactile buttons and the remaining one is canibalized for the LED, to simplify the backlight design process, a later release will remove this requirement by redicing the LED strings from 4 to 3 and using a properly selected resistor.<br>
 3 white 6mm LEDs, 1 green 6mm LED and 1 Yellow 6mm LED<br>
 1 4 pin male JST header with 2mm pitch. A 4 wire jumper of sufficient length to reach the LED driver board will also be needed. Optionally a 5.5mm female barrel jack connector can be installed and the board supplied from a second 12V (center positive) supply.
+**CAUTION** The resistor on the power supply branch of LED backlight of 'Brightness Adjust Buttons' and 'Exec' need to be change to 180ohm because of you still use 1ohm resistor, the light may work overload with shorter lifetime.
